@@ -1,0 +1,189 @@
+@font-face
+{
+font-family: Euphoria;
+src: url(./Fonts/Euphoria/EuphoriaScript-Regular.ttf);
+}
+
+@font-face
+{
+font-family: Education;
+src: url(./Fonts/EducationisaWay.ttf);
+}
+
+@font-face
+{
+font-family: Typewriter;
+src: url(./Fonts/ELEGANTTYPEWRITER.ttf);
+}
+
+body{
+margin: 0;
+padding:0;
+}
+
+#container{
+	 width: 800px;
+	 margin: auto;
+	 background-color: #EFE4CE;
+	 background-image: url("../img/titulo.png");
+	 background-size: auto 500px;
+	 background-repeat: no-repeat;
+	 background-position: left top;
+ }
+ 
+ #level1{
+	 text-align: center;
+	 font-family: Euphoria;
+	 font-size: 70px;
+	 letter-spacing: 5px;
+	 padding-top: 12%;
+ }
+ 
+#level2{
+	clear:both;
+	 background-image: url("../img/divider3.png");
+	 background-size: contain;
+	 background-repeat: no-repeat;
+	 background-position: center;
+	 height: 50px;
+	 width: 60%;
+	 margin:auto;
+ }
+ 
+ #level3{
+	width: 30%;
+	margin: auto;
+	 padding-top: 5%;
+	 margin-top: 5%;
+ }
+ 
+ #level3left{
+	 background-image: url("../img/alvaro.png");
+	 float: left;
+	 background-size: contain;
+	 background-repeat: no-repeat;
+	 height: 80px;
+	 width: 50%;
+ }
+ 
+ #level3right{
+	 background-image: url("../img/teresa.png");
+	 float:right;
+	 background-size: contain;
+	 background-repeat: no-repeat;
+	 background-position: right;
+	 height: 80px;
+	 width: 50%;
+ }
+ 
+ #level4{
+	clear: both;
+	margin: auto;
+	width: 630px;
+ }
+ 
+ #circleTimeline {
+	width: 150px;
+	height: 150px;
+	background-image: url("../img/timeline.png");
+	 float:left;
+	 background-size: contain;
+	 background-repeat: no-repeat;
+    background-position: center; 
+	-moz-border-radius: 75px;
+	-webkit-border-radius: 75px;
+	border-radius: 75px;
+	margin: 30px;
+}
+
+ #circleHotel{
+	width: 150px;
+	height: 150px;
+	background-image: url("../img/zzz.png");
+	 float:left;
+	 background-size: contain;
+	 background-repeat: no-repeat;
+    background-position: center; 
+	-moz-border-radius: 75px;
+	-webkit-border-radius: 75px;
+	border-radius: 75px;
+	margin: 30px;
+}
+
+ #circleMap{
+	width: 150px;
+	height: 150px;
+	background-image: url("../img/map.png");
+	 float:left;
+	 background-size: contain;
+	 background-repeat: no-repeat;
+    background-position: center; 
+	-moz-border-radius: 75px;
+	-webkit-border-radius: 75px;
+	border-radius: 75px;
+	margin: 30px;
+}
+
+.texto{
+	clear: both;
+	width: 600px;
+	margin: auto;
+	font-family: Typewriter;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.textoSmall{
+	clear: both;
+	width: 600px;
+	margin: auto;
+	font-family: Typewriter;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.label{
+	clear: both;
+	width: 600px;
+	margin: auto;
+	font-family: Castellar;
+	font-size: 35px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+footer{
+	clear:both;
+	height: 40px;
+	color: #303030;
+	text-align: center;
+}
+
+#footerInformation{
+	height: 25px;
+}
+
+#copyright{
+	width: 100%;
+	font-size: 14px;
+}
+
+#iconsCopyright{
+	font-size: 10px;
+	color: gray;
+}
+
+a:link{
+	color: black;
+	text-decoration: none;
+}
+
+a:visited{
+	color: black;
+	text-decoration: none;
+}
