@@ -1,21 +1,3 @@
-@font-face
-{
-font-family: Euphoria;
-src: url(./Fonts/Euphoria/EuphoriaScript-Regular.ttf);
-}
-
-@font-face
-{
-font-family: Education;
-src: url(./Fonts/EducationisaWay.ttf);
-}
-
-@font-face
-{
-font-family: Typewriter;
-src: url(./Fonts/ELEGANTTYPEWRITER.ttf);
-}
-
 body{
 margin: 0;
 padding:0;
@@ -38,7 +20,7 @@ padding:0;
 	 background-repeat: no-repeat;
 	 background-position: center;
 	 width: 600px;
-	 height: 200px;
+	 height: 150px;
 	 margin:auto;
  }
  
