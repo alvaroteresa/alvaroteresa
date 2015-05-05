@@ -18,10 +18,11 @@
 	<a href="index.html"><div id="level1"></div></a>
 	<div id="level2"></div>
 	<div id="level4">
-		<a href="timeline.html"><div id="circleTimeline"></div></a>
+		<a href="javascript:changeContent('timeline');"><div id="circleTimeline"></div></a>
 		<a href="hotel.html"><div id="circleHotel"></div></a>
 		<a href="map.html"><div id="circleMap"></div></a>
 	</div>
+	<div id="level5"></div>
 	<footer>
 		<div id="footerInformation">
 			<div id="copyright">Teresa tonorati@gmail.com - &Aacute;lvaro alvarokas@hotmail.com</div>
@@ -29,6 +30,9 @@
 	</footer>
 </div>
 <script type="text/javascript">
+	function changeContent('label'){
+		document.getElementById("level5").innerHTML="mis huevos";
+	}
 	//document.getElementById("circleTimeline").style.backgroundImage="url('./img/timeline.png')";
 	//document.getElementById("circleCake").style.backgroundImage="url('./img/zzz.png')";
 	//document.getElementById("circleMap").style.backgroundImage="url('./img/map.png')";
