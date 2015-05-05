@@ -65,17 +65,11 @@ padding:0;
 	clear: both;
 	margin: auto;
 	width: 630px;
- }
- 
- #level5{
-	clear: both;
-	margin: auto;
-	width: 630px;
+	height: 150px;
  }
  
  #circleTimeline {
 	width: 150px;
-	height: 150px;
 	background-image: url("https://cloud.githubusercontent.com/assets/12258170/7478881/00b181f8-f35e-11e4-9642-5edf296fab71.png");
 	 float:left;
 	 background-size: contain;
@@ -114,6 +108,12 @@ padding:0;
 	border-radius: 75px;
 	margin: 30px;
 }
+ 
+ #level5{
+	clear: both;
+	margin: auto;
+	width: 630px;
+ }
 
 .texto{
 	clear: both;
