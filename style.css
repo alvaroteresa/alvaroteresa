@@ -32,13 +32,13 @@ padding:0;
  }
  
  #level1{
+ 	 clear:both;
 	 text-align: center;
 	 background-image: url("https://cloud.githubusercontent.com/assets/12258170/7479269/d9205440-f360-11e4-9f4d-37a455640cfe.png");
 	 background-size: contain;
 	 background-repeat: no-repeat;
 	 background-position: center;
-	 height: 100px;
-	 width: 70%;
+	 width: 100%;
 	 margin:auto;
  }
  
