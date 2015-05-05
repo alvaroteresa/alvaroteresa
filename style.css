@@ -67,6 +67,12 @@ padding:0;
 	width: 630px;
  }
  
+ #level5{
+	clear: both;
+	margin: auto;
+	width: 630px;
+ }
+ 
  #circleTimeline {
 	width: 150px;
 	height: 150px;
