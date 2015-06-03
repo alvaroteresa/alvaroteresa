@@ -67,6 +67,20 @@ padding:0;
 	width: 630px;
 	height: 200px;
  }
+
+ #circleUs{
+	width: 150px;
+	height: 150px;
+	background-image: url("https://cloud.githubusercontent.com/assets/12258170/7972923/ad741b90-0a50-11e5-8429-25eb4dc5028f.png");
+	 float:left;
+	 background-size: contain;
+	 background-repeat: no-repeat;
+    background-position: center; 
+	-moz-border-radius: 75px;
+	-webkit-border-radius: 75px;
+	border-radius: 75px;
+	margin: 30px;
+}
  
  #circleTimeline {
 	width: 150px;
