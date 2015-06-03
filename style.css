@@ -64,13 +64,13 @@ padding:0;
  #level4{
 	clear: both;
 	margin: auto;
-	width: 730px;
+	width: 720px;
 	height: 200px;
  }
 
  #circleUs{
-	width: 150px;
-	height: 150px;
+	width: 120px;
+	height: 120px;
 	background-image: url("https://cloud.githubusercontent.com/assets/12258170/7973260/ebb80828-0a53-11e5-9c12-46404653611a.png");
 	 float:left;
 	 background-size: contain;
@@ -84,8 +84,8 @@ padding:0;
 }
  
  #circleTimeline {
-	width: 150px;
-	height: 150px;
+	width: 120px;
+	height: 120px;
 	background-image: url("https://cloud.githubusercontent.com/assets/12258170/7478881/00b181f8-f35e-11e4-9642-5edf296fab71.png");
 	 float:left;
 	 background-size: contain;
@@ -99,8 +99,8 @@ padding:0;
 }
 
  #circleHotel{
-	width: 150px;
-	height: 150px;
+	width: 120px;
+	height: 120px;
 	background-image: url("https://cloud.githubusercontent.com/assets/12258170/7479034/268f0282-f35f-11e4-85ce-de722076aed1.png");
 	 float:left;
 	 background-size: contain;
@@ -114,9 +114,24 @@ padding:0;
 }
 
  #circleMap{
-	width: 150px;
-	height: 150px;
+	width: 120px;
+	height: 120px;
 	background-image: url("https://cloud.githubusercontent.com/assets/12258170/7479069/702ad542-f35f-11e4-92b6-9d677dd64f04.png");
+	 float:left;
+	 background-size: contain;
+	 background-repeat: no-repeat;
+    background-position: center; 
+	-moz-border-radius: 75px;
+	-webkit-border-radius: 75px;
+	border-radius: 75px;
+	margin-right: 30px;
+	margin-top: 30px;
+}
+
+ #circleInfo{
+	width: 120px;
+	height: 120px;
+	background-image: url("https://cloud.githubusercontent.com/assets/12258170/7973460/cc4f3ff4-0a55-11e5-83f5-84f884f74758.png");
 	 float:left;
 	 background-size: contain;
 	 background-repeat: no-repeat;
