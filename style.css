@@ -152,8 +152,9 @@ padding:0;
 	clear: both;
 	margin: auto;
 	width: 720px;
-	font-size: x-large;
+	font-size: large;
 	font-family: Verdana, Arial, sans-serif;
+	line-height: 120%;
  }
 
 .texto{
