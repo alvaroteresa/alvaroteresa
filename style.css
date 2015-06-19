@@ -146,6 +146,9 @@ padding:0;
 	clear: both;
 	margin: auto;
 	width: 720px;
+	font-size: large;
+	font-family: Verdana, Arial, sans-serif;
+	line-height: 150%;
  }
  
  #level6{
