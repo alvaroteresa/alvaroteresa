@@ -4,9 +4,9 @@ padding:0;
 }
 
 #background{
-width: 1359px;
+width: 1370px;
 background-image: url("https://cloud.githubusercontent.com/assets/12258170/8318152/cf8623c4-1a02-11e5-967e-cc4551f27974.png");
-background-size: 1359px 640px;
+background-size: auto 640px;
 background-repeat: no-repeat;
 background-position: center;
 background-attachment: fixed;
