@@ -207,6 +207,10 @@ padding:0;
 
 footer{
 	clear:both;
+	background-image: url("https://cloud.githubusercontent.com/assets/12258170/7479145/f88b0c54-f35f-11e4-9110-dc3fbd077136.png");
+	 background-size: contain;
+	 background-repeat: no-repeat;
+	 background-position: center;
 	height: 40px;
 	color: #303030;
 	text-align: center;
