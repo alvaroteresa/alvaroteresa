@@ -4,9 +4,9 @@ padding:0;
 }
 
 #background{
-	width:1340px;
+	width:1298px;
 	background-image: url("https://cloud.githubusercontent.com/assets/12258170/8318152/cf8623c4-1a02-11e5-967e-cc4551f27974.png");
-	background-size: 1340px 640px;
+	background-size: 1298px 620px;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	margin:auto;
@@ -16,6 +16,7 @@ padding:0;
 	 width: 800px;
 	 background-color: #EFE4CE;
 	 margin:auto;
+	 padding-top: 20px;
  }
  
  #level1{
