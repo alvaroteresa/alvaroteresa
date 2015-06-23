@@ -16,10 +16,10 @@ padding:0;
 
 #alvaro{
 	float:left;
-	width:270px;
+	width:275px;
 	height:640px;
 	background-image: url("https://cloud.githubusercontent.com/assets/12258170/8319041/a9134692-1a0a-11e5-8180-2eaf1e76e2b8.png");
-	background-size: 270px 640px;
+	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
@@ -27,10 +27,10 @@ padding:0;
 
 #teresa{
 	float:left;
-	width:270px;
+	width:275px;
 	height:640px;
 	background-image: url("https://cloud.githubusercontent.com/assets/12258170/8319053/c6664faa-1a0a-11e5-8d3d-d5a1ab9f654f.png");
-	background-size: 270px 640px;
+	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
