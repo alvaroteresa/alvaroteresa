@@ -9,6 +9,7 @@ background-image: url("https://cloud.githubusercontent.com/assets/12258170/83181
 background-size: 1359px 640px;
 background-repeat: no-repeat;
 background-position: center;
+background-attachment: fixed;
 margin: auto;
 }
 
