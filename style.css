@@ -4,40 +4,17 @@ padding:0;
 }
 
 #background{
-	width:1360px;
+	width:1424px;
 	height:680px;
 	background-image: url("https://cloud.githubusercontent.com/assets/12258170/8318152/cf8623c4-1a02-11e5-967e-cc4551f27974.png");
-	background-size: 1340px 640px;
+	background-size: 1424px 680px;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
 	margin: auto;
 }
 
-#alvaro{
-	float:left;
-	width:290px;
-	height:680px;
-	background-image: url("https://cloud.githubusercontent.com/assets/12258170/8319041/a9134692-1a0a-11e5-8180-2eaf1e76e2b8.png");
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-attachment: fixed;
-}
-
-#teresa{
-	float:left;
-	width:290px;
-	height:680px;
-	background-image: url("https://cloud.githubusercontent.com/assets/12258170/8319053/c6664faa-1a0a-11e5-8d3d-d5a1ab9f654f.png");
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-attachment: fixed;
-}
-
 #container{
-	float:left;
 	 width: 800px;
 	 margin: auto;
 	 background-color: #EFE4CE;
