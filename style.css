@@ -7,10 +7,6 @@ padding:0;
 	 width: 800px;
 	 margin: auto;
 	 background-color: #EFE4CE;
-	 background-image: url("../img/titulo.png");
-	 background-size: auto 500px;
-	 background-repeat: no-repeat;
-	 background-position: left top;
  }
  
  #level1{
@@ -43,7 +39,7 @@ padding:0;
  }
  
  #level3left{
-	 background-image: url("https://cloud.githubusercontent.com/assets/12258170/7478389/dda3c46c-f35a-11e4-8097-182ffc98b545.png");
+	 background-image: url("https://cloud.githubusercontent.com/assets/12258170/8311028/d48f7cc8-19d3-11e5-9a01-37ce7f5d2328.png");
 	 float: left;
 	 background-size: contain;
 	 background-repeat: no-repeat;
@@ -52,7 +48,7 @@ padding:0;
  }
  
  #level3right{
-	 background-image: url("https://cloud.githubusercontent.com/assets/12258170/7478852/dba2c408-f35d-11e4-8cef-46062457366b.png");
+	 background-image: url("https://cloud.githubusercontent.com/assets/12258170/8311051/fb66330a-19d3-11e5-924f-f60acc683916.png");
 	 float:right;
 	 background-size: contain;
 	 background-repeat: no-repeat;
