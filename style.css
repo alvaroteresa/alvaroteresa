@@ -215,6 +215,7 @@ footer{
 	height: 80px;
 	color: #303030;
 	text-align: center;
+	margin: auto;
 }
 
 #footerInformation{
@@ -223,13 +224,7 @@ footer{
 }
 
 #copyright{
-	width: 100%;
 	font-size: 14px;
-}
-
-#iconsCopyright{
-	font-size: 10px;
-	color: gray;
 }
 
 a:link{
