@@ -51,13 +51,17 @@
 				document.getElementById("level6").style.marginBottom="0px";
 			} else if(label==='hotel'){
 				document.getElementById("level5").style.background="";
-				level5="En todo viaje hay que descansar y en éste vais a tener motivo de sobra para ello. Después de los nervios, lágrimas y sonrisas, bailes, brindis y dolor de pies, os queremos agradecer vuestra presencia. ";
-				level5 +="Por lo tanto, os invitamos a pasar la noche de la boda en el hotel Il Cavalier D'Arpino en Via Vittoria Colonna 21 - Arpino.<br><br>";
-				level5 += "Si necesitáis más noches, por favor poneros en contacto con nosotros para la reserva. En el hotel hay disponibilidad de habitaciones individuales, dobles, triples y cu&aacute;druples. ";
-				level5 += "Cada habitación incluye desayuno, conexión WiFi, aire acondicionado y aparcamiento. Aquí os dejamos los precios por noche y por habitación de las posibilidades de alojamiento.<br><br>";
-				level5 += "<div id='lefthotel'><table id='precios'><tr><td style='text-align: right; color: #FF388C; font-weight: bold;'>Z</td><td>Individual: 55&#8364;</td></tr><tr><td style='text-align: right; color: #FF388C; font-weight: bold;'>ZZ</td><td>Doble: 75&#8364;</td></tr>";
-				level5 += "<tr><td style='text-align: right; color: #FF388C; font-weight: bold;'>ZZZ</td><td>Triple: 90&#8364;</td></tr><tr><td style='text-align: right; color: #FF388C; font-weight: bold;'>ZZZZ</td><td>Cu&aacute;druple: 105&#8364;</td></tr></table></div>";
-				level5 += "<div id='righthotel'><img src='https://cloud.githubusercontent.com/assets/12258170/8310451/44b3d35e-19d0-11e5-81f6-fe68ab92783e.png' width='450' height='150'></div>";
+				section="hotel";
+				if(lang==="es")
+					level5="En todo viaje hay que descansar y en éste vais a tener motivo de sobra para ello. Después de los nervios, lágrimas y sonrisas, bailes, brindis y dolor de pies, os queremos agradecer vuestra presencia. ";
+					level5 +="Por lo tanto, os invitamos a pasar la noche de la boda en el hotel Il Cavalier D'Arpino en Via Vittoria Colonna 21 - Arpino.<br><br>";
+					level5 += "Si necesitáis más noches, por favor poneros en contacto con nosotros para la reserva. En el hotel hay disponibilidad de habitaciones individuales, dobles, triples y cu&aacute;druples. ";
+					level5 += "Cada habitación incluye desayuno, conexión WiFi, aire acondicionado y aparcamiento. Aquí os dejamos los precios por noche y por habitación de las posibilidades de alojamiento.<br><br>";
+					level5 += "<div id='lefthotel'><table id='precios'><tr><td style='text-align: right; color: #FF388C; font-weight: bold;'>Z</td><td>Individual: 55&#8364;</td></tr><tr><td style='text-align: right; color: #FF388C; font-weight: bold;'>ZZ</td><td>Doble: 75&#8364;</td></tr>";
+					level5 += "<tr><td style='text-align: right; color: #FF388C; font-weight: bold;'>ZZZ</td><td>Triple: 90&#8364;</td></tr><tr><td style='text-align: right; color: #FF388C; font-weight: bold;'>ZZZZ</td><td>Cu&aacute;druple: 105&#8364;</td></tr></table></div>";
+					level5 += "<div id='righthotel'><img src='https://cloud.githubusercontent.com/assets/12258170/8310451/44b3d35e-19d0-11e5-81f6-fe68ab92783e.png' width='450' height='150'></div>";
+				else if(lang==="it")
+					level5="En todo viaje hay que descansar y en éste vais a tener motivo de sobra para ello. Después de los nervios, lágrimas y sonrisas, bailes, brindis y dolor de pies, os queremos agradecer vuestra presencia. ";
 				document.getElementById("level5").innerHTML=level5;
 				document.getElementById("circleUs").style.backgroundImage="url('https://cloud.githubusercontent.com/assets/12258170/7972956/052ea60c-0a51-11e5-9a2e-cfcf43d86d22.png')";
 				document.getElementById("circleTimeline").style.backgroundImage="url('https://cloud.githubusercontent.com/assets/12258170/7482840/8920b66e-f37a-11e4-82fd-620ff3ab941a.png')";
@@ -80,7 +84,11 @@
 			} else if(label==='info'){
 				document.getElementById("level5").style.height="500px";
 				document.getElementById("level5").style.background="";
-				document.getElementById("level5").innerHTML="TBD";
+				section = "info";
+				if(lang==="es")
+					document.getElementById("level5").innerHTML="TBD";
+				else if(lang==="it")
+					document.getElementById("level5").innerHTML="TBD";
 				document.getElementById("circleUs").style.backgroundImage="url('https://cloud.githubusercontent.com/assets/12258170/7972956/052ea60c-0a51-11e5-9a2e-cfcf43d86d22.png')";
 				document.getElementById("circleTimeline").style.backgroundImage="url('https://cloud.githubusercontent.com/assets/12258170/7482840/8920b66e-f37a-11e4-82fd-620ff3ab941a.png')";
 				document.getElementById("circleHotel").style.backgroundImage="url('https://cloud.githubusercontent.com/assets/12258170/7480023/e0d9c6da-f365-11e4-948f-e7e42778fbf2.png')";
