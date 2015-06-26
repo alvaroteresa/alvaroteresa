@@ -61,6 +61,7 @@ padding:0;
  }
  
  #level3{
+ 	clear:both;
 	width: 30%;
 	height: 80px;
 	margin: auto;
