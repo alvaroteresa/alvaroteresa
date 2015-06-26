@@ -21,6 +21,12 @@ padding:0;
  
  #lang{
  	text-align:right;
+ 	margin-right:20px;
+ }
+ 
+ img#lang{
+ 	width:20px;
+ 	height:20px;
  }
  
  #level1{
