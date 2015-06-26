@@ -7,14 +7,20 @@
 	<link rel="stylesheet" type="text/css" href="./style.css">
 	<script type="text/javascript">
 		lang = "es";
+		section="";
 		function changeLanguage(language){
-			if(language==='es')
+			if(language==='es'){
 				lang="es";
-			else
+				changeContent(section);
+			}
+			else{
 				lang="it";
+				changeContent(section);
+			}
 		}
 		function changeContent(label){
 			if(label==='us'){
+				section="us";
 				if(lang==="es")
 					document.getElementById("level6").innerHTML="Y aqu&iacute; estamos...nos conocimos en 2007 y desde entonces hemos compartido risas y lágrimas.";
 				else if(lang==="it")
