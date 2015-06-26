@@ -19,12 +19,16 @@ padding:0;
 	 margin:auto;
  }
  
- #lang{
- 	text-align:right;
+ .lang{
+ 	float:right;
+ 	width:50px;
+ 	height:65px;
+ 	font-size:12px;
+ 	text-align:center;
  	margin-right:50px;
  }
  
- #lang img{
+ .lang img{
  	width:50px;
  	height:50px;
  }
