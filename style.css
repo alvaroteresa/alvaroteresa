@@ -14,9 +14,14 @@ padding:0;
 }
 
 #container{
+	clear:both;
 	 width: 800px;
 	 background-color: #EFE4CE;
 	 margin:auto;
+ }
+ 
+ #flags{
+ 	clear:both;
  }
  
  .lang{
