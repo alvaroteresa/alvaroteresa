@@ -6,9 +6,19 @@
 	<title>Alvaro & Teresa</title>
 	<link rel="stylesheet" type="text/css" href="./style.css">
 	<script type="text/javascript">
+		lang = "es";
+		function changeLanguage(language){
+			if(language==='es')
+				lang="es";
+			else
+				lang="it";
+		}
 		function changeContent(label){
 			if(label==='us'){
-				document.getElementById("level6").innerHTML="Y aqu&iacute; estamos...nos conocimos en 2007 y desde entonces hemos compartido risas y lágrimas.";
+				if(lang==="es")
+					document.getElementById("level6").innerHTML="Y aqu&iacute; estamos...nos conocimos en 2007 y desde entonces hemos compartido risas y lágrimas.";
+				else if(lang==="it")
+					document.getElementById("level6").innerHTML="Ed eccoci qui, pronti a dare il grande passo!";
 				document.getElementById("level6").style.marginBottom="10px";
 				document.getElementById("level5").style.height="550px";
 				document.getElementById("level5").innerHTML="";
