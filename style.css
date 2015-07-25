@@ -246,12 +246,12 @@ footer{
 }
 
 #footerInformation{
-	height: 50px;
+	height: 60px;
 	padding-top: 55px;
 }
 
 #copyright{
-	height: 50px;
+	height: 60px;
 	background-image: url("https://cloud.githubusercontent.com/assets/12258170/8891419/27781d28-3329-11e5-88f8-b1a869efd3c0.png");
 	background-size: contain;
 	background-position: center;
