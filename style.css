@@ -258,12 +258,8 @@ footer{
 	background-repeat: no-repeat;
 }
 
-#copyright{
-	font-size: 12px;
-}
-
-#banco{
-	font-size: 12px;
+#icons{
+	font-size: 8px;
 }
 
 a:link{
