@@ -234,7 +234,7 @@ padding:0;
 
 footer{
 	clear:both;
-	width: 450px;
+	width: 500px;
 	background-image: url("https://cloud.githubusercontent.com/assets/12258170/7479145/f88b0c54-f35f-11e4-9110-dc3fbd077136.png");
 	 background-size: contain;
 	 background-repeat: no-repeat;
@@ -247,6 +247,7 @@ footer{
 
 #footerInformation{
 	height: 60px;
+	padding:40px;
 }
 
 #copyright{
