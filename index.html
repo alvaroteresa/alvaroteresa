@@ -83,6 +83,11 @@
 				document.getElementById("level6").innerHTML="";
 				document.getElementById("level6").style.marginBottom="0px";
 			} else if(label==='info'){
+				if(lang==="es")
+					document.getElementById("level6").innerHTML="Si tenéis la posibilidad de quedaros algún día por la zona, desde Arpino tenéis fácil acceso a muchos sitios interesantes. En una hora y media de coche se llega a Roma y en un par de horas a Napoles, solo para nombrar las ciudades principales. Como podéis ver en el mapa, hay muchos pueblos historicos, así como playas, monumentos y campos abiertos. ¡Solo os queda elegir y disfrutar!!";
+				else if(lang==="it")
+					document.getElementById("level6").innerHTML="Se avete la possibilità di passare qualche giorno nella zona, da Arpino potete arrivare facilmente a molti posti interessanti. In un'ora e mezza di macchina si raggiunge Roma e in un paio d'ore Napoli, solo per nominare due città tra le più importanti. Come si vede nella mappa, ci sono molti paesi storici, monumenti, spiagge e campi aperti. Solo dovete scegliere e divertirvi!";
+				document.getElementById("level6").style.marginBottom="10px";
 				document.getElementById("level5").style.height="200px";
 				document.getElementById("level5").innerHTML="";
 				document.getElementById("level5").style.backgroundImage="url('https://cloud.githubusercontent.com/assets/12258170/9122733/40c2beee-3c8b-11e5-916a-d3ccc2e25a10.png')";
@@ -94,8 +99,6 @@
 				document.getElementById("circleHotel").style.backgroundImage="url('https://cloud.githubusercontent.com/assets/12258170/7480023/e0d9c6da-f365-11e4-948f-e7e42778fbf2.png')";
 				document.getElementById("circleMap").style.backgroundImage="url('https://cloud.githubusercontent.com/assets/12258170/7482724/d592c15a-f379-11e4-8e6c-d1a915007830.png')";
 				document.getElementById("circleInfo").style.backgroundImage="url('https://cloud.githubusercontent.com/assets/12258170/7973460/cc4f3ff4-0a55-11e5-83f5-84f884f74758.png')";
-				document.getElementById("level6").innerHTML="";
-				document.getElementById("level6").style.marginBottom="0px";
 			}
 		}
 	</script>
